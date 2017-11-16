@@ -1,0 +1,7 @@
+<form action="{{ result.get_link() }}?method=put" method="post">
+    {% for key in writable %}
+    <div>{{ key }}:<input name="{{ key }}" value="{{ result[key] }}"></div>
+    {% endfor %}
+    <div><textarea type="url" rows="3" cols="100" readonly>POST {{ result.get_link() }}?method=put</textarea></div>
+    <div><input type="submit" value="Update"></div>
+</form>

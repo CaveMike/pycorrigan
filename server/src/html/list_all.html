@@ -1,0 +1,16 @@
+<table border="1">
+    <tr>
+        <th>link</th>
+        {% for key in keys %}
+        <th>{{ key }}</th>
+        {% endfor %}
+    </tr>
+    {% for result in results %}
+    <tr>
+        <td><a href="{{ result.get_link() }}">link</a></td>
+        {% for key in keys %}
+        <td>{{ result[key] }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>

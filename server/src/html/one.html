@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+    </head>
+    <body>
+        {% include 'html/header.html' %}
+
+        <b>Update one:</b>
+        {% include 'html/update_one.html' %}
+        <hr>
+
+        <b>Delete one:</b>
+        {% include 'html/delete_one.html' %}
+        <hr>
+
+        <b>Publish:</b>
+        {% include 'html/publish.html' %}
+        <hr>
+
+        {% include 'html/footer.html' %}
+    </body>
+</html>
+{% endautoescape %}

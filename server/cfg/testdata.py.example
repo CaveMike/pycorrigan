@@ -1,0 +1,9 @@
+class TestData(object):
+    TEST_DEVICE_0 = {'name' : 'xxx', 'email' : 'xxx@xxx.xxx', 'dev_id' : 'xxxxxxxxxxxxxxxx', 'reg_id' : 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'resource' :'xxx', 'type' : 'xxx'}
+    TEST_DEVICE_1 = {'name' : 'xxx', 'email' : 'xxx@xxx.xxx', 'dev_id' : 'xxxxxxxxxxxxxxxx', 'reg_id' : 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'resource' :'xxx', 'type' : 'xxx'}
+
+    TEST_DEVICES=( \
+        TEST_DEVICE_0,
+        TEST_DEVICE_1,
+        )
+

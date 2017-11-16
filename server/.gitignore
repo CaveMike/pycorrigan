@@ -1,0 +1,5 @@
+*.komodoproject
+*.pyc
+/cfg/deploy.py
+/cfg/testdata.py
+/src/app.yaml

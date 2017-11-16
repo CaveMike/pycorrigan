@@ -1,0 +1,9 @@
+<form action="{{ result.get_link() }}message/" method="post">
+    <!-- FIXME: remove id fields below. -->
+    <div><input name="pub_id" value="{{ result.get_id() }}" hidden></div>
+    <div><input name="user_id" value="{{ result.get_id() }}" hidden></div>
+    <div><input name="dev_id" value="{{ result.get_id() }}" hidden></div>
+    <div><textarea name="message" rows="3" cols="80">sample message</textarea></div>
+    <div><textarea type="url" rows="3" cols="100" readonly>POST {{ result.get_link() }}message/</textarea></div>
+    <div><input type="submit" value="Publish"></div>
+</form>

@@ -1,0 +1,15 @@
+class Deploy(object):
+    # The name of your Google App Engine app.
+    GAE_NAME = 'xxx'
+
+    # Google ID that has admin priviledges for your app.
+    GAE_ADMIN = 'xxx@gmail.com'
+
+    # Generate an app-specific password at http://www.google.com/support/accounts/bin/answer.py?answer=185833
+    GAE_APP_PASSWORD = 'xxxxxxxxxxxxxxxx'
+    
+    GAE_LOCAL_SERVER = 'localhost:8080'
+    GAE_LOCAL_URL = 'http://' + GAE_LOCAL_SERVER + '/'
+
+    GAE_REMOTE_SERVER = GAE_NAME + '.appspot.com'
+    GAE_REMOTE_URL = 'http://' + GAE_REMOTE_SERVER + '/'

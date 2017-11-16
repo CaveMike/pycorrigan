@@ -1,0 +1,7 @@
+<form action="" method="post">
+    {% for key in writable %}
+    <div>{{ key }}:<input name="{{ key }}" value=""></div>
+    {% endfor %}
+    <div><textarea type="url" rows="1" cols="100" readonly>POST</textarea></div>
+    <div><input type="submit" value="Add"></div>
+</form>
